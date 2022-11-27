@@ -1,0 +1,5 @@
+#!/bin/sh
+
+path="/proc/monitor"
+
+echo $* > $path || exit 1

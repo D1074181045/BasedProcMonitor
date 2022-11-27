@@ -1,0 +1,5 @@
+#!/bin/sh
+
+module="monitor_proc"
+
+rmmod ./src/$module.ko || exit 1

@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/work/Device_Driver_Final/src/monitor_proc.o := ld -m elf_x86_64  -z max-page-size=0x200000 -z noexecstack     -r -o /home/ubuntu/work/Device_Driver_Final/src/monitor_proc.o /home/ubuntu/work/Device_Driver_Final/src/main.o

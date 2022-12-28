@@ -19,7 +19,7 @@ MODULE_LICENSE("GPL");
 static long PID = 0;
 static int state = STOP;
 
-static char *env[] = {"/home/ubuntu", "/usr/local/sbin", NULL};
+static char *env[] = {"HOME=/", "PATH=/sbin:/usr/sbin:/bin:/usr/bin", NULL};
 
 static struct Path path = {
     .output = "/tmp/output_monitor.txt",
